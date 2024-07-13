@@ -7,7 +7,7 @@ function checkAnswer(){
      const feedBack = document.getElementById('feedback');
 
     if (userAnswer === correctAnswer){
-        feedBack.textContent = "correct! Well done."
+        feedBack.textContent = "Correct! Well done."
     }else if(userAnswer != correctAnswer) {
         feedBack.textContent= "That's incorrect.Try again"
     }
