@@ -9,7 +9,7 @@ function checkAnswer(){
     if (userAnswer === correctAnswer){
         feedBack.textContent = "Correct! Well done."
     }else if(userAnswer !== correctAnswer) {
-        feedBack.textContent= "That's incorrect.Try again!"
+        feedBack.textContent= "That's incorrect. Try again!"
     }
 }
 
