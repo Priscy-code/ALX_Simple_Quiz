@@ -8,7 +8,7 @@ function checkAnswer(){
     if (userAnswer === correctAnswer){
         feedback.textContent = "Correct! Well done.";
     }else if (feedback){
-        feedback.textContent = "That's incorrect. Try again";
+        feedback.textContent = "That's incorrect. Try again!";
     }
 }
 const submitButton = document.getElementById('submit-answer');
